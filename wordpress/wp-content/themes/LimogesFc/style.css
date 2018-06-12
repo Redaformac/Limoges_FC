@@ -1,0 +1,76 @@
+/*
+Theme Name: Limoges FC
+Author: Mike Moleka
+Author URI: https://www.facebook.com/mmoleka
+Description: Limoges Fc theme WordPress
+Version: 1.0
+*/
+
+.text-publication{
+    color: red;
+}
+
+.body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F4F4F4;
+    opacity: 1.0;
+}
+.flag-page{
+    background-color: rgb(255,0,0, 0.7);
+    height: 200px;
+}
+a.a-page:link{
+    text-decoration: none;/*Pour que le lien ne soit plus "souligné"...*/
+    color: #c0392b;
+    border: inherit;
+}
+
+.card-acceuil{
+    margin-right: 20px;
+}
+
+.card-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.baniere{
+    padding-top: 20px;
+    background-color: #151E2D;
+}
+.nav-style{
+    background-color: #151E2D;
+    color: red;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+footer{
+    color: white;
+    background-color: #151E2D;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+footer a{
+    font-size:20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: white;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    display: inline-block;
+}
+
+.fa{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+footer a:hover {
+    border-color: white;
+}
